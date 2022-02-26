@@ -12,5 +12,10 @@ public class LinkedListApp {
 
         System.out.println("finding kth element from last");
         System.out.println(list1.getKthElementFromLast(4));
+
+        System.out.println("removing kth element from last");
+        list1.removeKthElementFromLast(2);
+        list1.printNodes();
+
     }
 }
